@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-form{
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 10px;
+}
+
+h1{
+   text-align: center;
+}
+
+input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+
+textarea{
+    width: 330%;
+    border: none;
+}
+
+button{
+    width: 330%;
+    height: 40px;
+    border: none;
+}
+
+button:hover{
+    background: rgb(red, green, blue);
+}
